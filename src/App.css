@@ -16,6 +16,9 @@
   .container {
     width: 540px;
   }
+} 
+
+@media (max-width: 576px) {
   .mobileHidden{
     display: none;
   }
@@ -28,7 +31,7 @@
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
-} 
+}
 
 /* md */
 @media (min-width: 768px) {
