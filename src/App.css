@@ -13,12 +13,27 @@
   .container {
     width: 540px;
   }
+  .mobileHidden{
+    display: none;
+  }
+  .mobileVisible{
+    display: block;
+    justify-self: flex-end;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
 } 
 
 /* md */
 @media (min-width: 768px) {
   .container {
     width: 720px;
+  }
+  .mobileHidden{
+    display: block;
+  }
+  .mobileVisible{
+    display: none;
   }
 } 
 
@@ -144,7 +159,20 @@ body {
   border-radius: 50%;
   opacity: 1;
 }
-
+/* Hamburger Item */
+.hamburger-menu{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.hamburger-item{
+  width: 100%;
+  opacity: 0.7;
+  font-size: 2rem;
+}
+.hamburger-item--active{
+  opacity: 1;
+}
 
 /* Product Item */
 .product {
