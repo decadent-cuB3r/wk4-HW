@@ -7,7 +7,6 @@ export default function NavBar() {
   const showDrawer = () => {
     setVisible(true);
   };
-
   const onClose = () => {
     setVisible(false);
   };

@@ -16,6 +16,9 @@
   .mobileHidden{
     display: none;
   }
+  .nav-bar{
+    display: none;
+  }
   .mobileVisible{
     display: block;
     justify-self: flex-end;
